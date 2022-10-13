@@ -1,0 +1,185 @@
+#title{
+	background-color:#ff4c68;
+	color: white;
+}
+.container-fluid{
+	padding:3% 15% 7%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-family: 'Montserrat-bold', sans-serif;
+	font-weight: 900;
+	font-size:3.5rem;
+	line-height:1.5;
+	
+}
+.navbar{
+	padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-size: 1.2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+
+}
+
+.dowload-botton{
+	margin: 5% 3% 5% 0;
+
+}
+
+.title-image{
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+	
+}
+
+.fa-solid{
+	color: #ef8172;
+	padding-bottom: 1.5rem;
+}
+
+.features{
+	text-align: center;
+	background-color:#fff;
+	padding-top: 7%;
+	padding-bottom: 15%;
+	position: relative;
+
+
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size:1.5rem;
+}
+
+.p{
+	color: #8F8F8F;
+	width: 75%;
+	margin: auto;
+
+}
+
+.fa-solid:hover{
+	color: #ff4c68;
+}
+
+#testimonials{
+	
+	text-align: center;
+	background-color:#ef8172;
+	color: #fff;
+
+}
+
+.carousel-item{
+	padding: 7% 15%;
+	width: 90%;
+	margin: auto;
+}
+
+
+h2{
+	font-family: 'Montserrat-bold', sans-serif;
+	font-weight: 700;
+	font-size: 3rem;
+	line-height:1.5;
+	margin: auto;
+}
+
+.testimonial-image{
+	width: 12% ;
+	border-radius: 100%;
+	margin: 20px;
+}
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-image{
+	width: 15%;10
+	margin: 20px 20px 50px;
+}
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+.pricing-colom{
+	padding: 3% 2%;
+}
+
+@media(max-width: 1028px){
+	.title-image{
+		position: static;
+		transform: rotate(0);
+
+	}
+	#title{
+		text-align: center;
+	}
+	.bottom{
+		font-size: 1rem;
+	}
+
+}
+
+#cta{
+	background-color:#ff4c68 ;
+	text-align: center;
+}
+.bottom{
+	color: #fff;
+	line-height:1.5;
+	padding-top: 7%;
+	font-size:3rem;
+	width: 70%;
+	margin: auto;
+
+}
+
+.dowload-botton2{
+	margin-top: 3%;
+	margin-bottom: 7%;
+	margin-right: 3%;
+
+
+}
+
+#footer{
+	text-align: center;
+	background-color: #fff;
+	margin: 3%;
+}
+
+
+.footer-icon{
+	padding: 1%;
+	margin: auto;
+}
+
+.copyright{
+	margin-top: 1%;
+	font-size: .8rem;
+	color: #8F8F8F;
+}
+
